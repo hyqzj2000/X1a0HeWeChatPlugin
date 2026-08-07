@@ -1,8 +1,8 @@
 # X1a0He Plugin 2 for macOS
 
 ![platform](https://img.shields.io/badge/platform-macos-blue.svg)
-[![release](https://img.shields.io/badge/release-v2.6.4-brightgreen.svg)](https://github.com/X1a0He/X1a0HeWeChatPlugin/releases)
-![support](https://img.shields.io/badge/support-%204.1.12.29-blue.svg)
+[![release](https://img.shields.io/badge/release-v2.7.0-brightgreen.svg)](https://github.com/X1a0He/X1a0HeWeChatPlugin/releases)
+![support](https://img.shields.io/badge/support-%204.1.12.52-blue.svg)
 
 macOS 客户端插件
 ![](images/WeChatMainMockUp.png)
@@ -10,21 +10,22 @@ macOS 客户端插件
 
 > ✅ 已在以下环境中测试通过\
 > 💻 设备: M1 Max macOS 27 Golden Gate Beta (26A5388g)\
-> 📒 微信版本: 4.1.12.29(42530)\
+> 📒 微信版本: 4.1.12.52(269364)\
 > ❌ 不支持 Intel 版本\
 > ❌ 不支持 MAS 版本
 > 
-> MD5: 811315d90f61de1a099177d317310b63\
-> SHA1: 0760f5eaae71d6b531bf987bb3fd0a3ddf79d02c\
-> SHA256: 86c497c18fe7420cd1eee8450d1792c83f21dca8b0efbaac5c7cbd6d6bee610b
+> MD5: 510a3ffdce42a91b3cb9f152be926ed7\
+> SHA1: 5eeb050f4c9f80c2c5bbaa300869542c8388899e\
+> SHA256: 433cd29edfbf643191161109b838aa885cf48af5db0478f6badec570526ecce1
 > 
-> 安装包 pkg SHA 256: f675514fe2ac7d6e6401899cf7013a5081b192d2cd9597e5a479e6f7c0131a9e
+> 安装包 pkg SHA 256: 8e5403a47e1b9c9981b7605d0559c42d90c6ea5609e2efaf642ba5d85ee9c802
 
 # 支持版本(点击版本或立即下载即可下载原版)
 ## 最新支持版本
 |   版本    | 版本号 | 支持 | 需要插件版本 | 下载原版                                                                                           |
 |:---------:|:------:|:----:|:------------:|----------------------------------------------------------------------------------------------------|
-| 4.1.12.29 | 269341 |  ✅  |    2.6.4     | [立即下载](https://dldir1v6.qq.com/weixin/Universal/Mac/xWeChatMac_universal_4.1.12.29_269341.dmg) |
+| 4.1.12.52 | 269364 |  ✅  |    2.7.0     | [立即下载](https://dldir1v6.qq.com/weixin/Universal/Mac/xWeChatMac_universal_4.1.12.52_269364.dmg) |
+
 ## 历史支持版本
 <details>
 <summary>点击展开查看支持的版本</summary>
@@ -98,6 +99,9 @@ macOS 客户端插件
 | 4.1.12.26 | 269338 |  ✅  |     2.6.4     | [立即下载](https://dldir1v6.qq.com/weixin/Universal/Mac/xWeChatMac_universal_4.1.12.26_269338.dmg) |
 | 4.1.12.27 | 269339 |  ✅  |     2.6.4     | [立即下载](https://dldir1v6.qq.com/weixin/Universal/Mac/xWeChatMac_universal_4.1.12.27_269339.dmg) |
 | 4.1.12.28 | 269340 |  ✅  |     2.6.4     | [立即下载](https://dldir1v6.qq.com/weixin/Universal/Mac/xWeChatMac_universal_4.1.12.28_269340.dmg) |
+| 4.1.12.29 | 269341 |  ✅  |     2.6.4     | [立即下载](https://dldir1v6.qq.com/weixin/Universal/Mac/xWeChatMac_universal_4.1.12.29_269341.dmg) |
+| 4.1.12.50 | 269362 |  ✅  |     2.7.0     | [立即下载](https://dldir1v6.qq.com/weixin/Universal/Mac/xWeChatMac_universal_4.1.12.50_269362.dmg) |
+| 4.1.12.51 | 269363 |  ✅  |     2.7.0     | [立即下载](https://dldir1v6.qq.com/weixin/Universal/Mac/xWeChatMac_universal_4.1.12.51_269363.dmg) |
 
 </details>
 
@@ -125,10 +129,11 @@ macOS 客户端插件
 
 - **更多更新日志，请查看 [更新日志](change-log.md)**
 
-### 2.6.4 (2026.07.21)
-- feat: 支持 4.1.12.22(42530)
-- feat: 移除消息转发的插件前缀
-- feat: 增加转发媒体时的延迟
+### 2.7.0 (2026.08.07)
+- feat: 支持 4.1.12.50(269362)
+- feat: 支持 4.1.12.51(269363)
+- feat: 支持 4.1.12.52(269364)
+- fix: 修复了因退群监控导致弹出提示 数据库已损坏 影响 联系人 功能的问题
 
 <a href="https://www.star-history.com/?repos=X1a0He%2FX1a0HeWeChatPlugin&type=date&legend=top-left">
  <picture>
