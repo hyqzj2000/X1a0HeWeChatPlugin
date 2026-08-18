@@ -1,30 +1,30 @@
 # X1a0He Plugin 2 for macOS
 
 ![platform](https://img.shields.io/badge/platform-macos-blue.svg)
-[![release](https://img.shields.io/badge/release-v2.7.0-brightgreen.svg)](https://github.com/X1a0He/X1a0HeWeChatPlugin/releases)
-![support](https://img.shields.io/badge/support-%204.1.12.52-blue.svg)
+[![release](https://img.shields.io/badge/release-v2.8.0-brightgreen.svg)](https://github.com/X1a0He/X1a0HeWeChatPlugin/releases)
+![support](https://img.shields.io/badge/support-%204.1.13.6-blue.svg)
 
 macOS 客户端插件
 ![](images/WeChatMainMockUp.png)
 
 
 > ✅ 已在以下环境中测试通过\
-> 💻 设备: M1 Max macOS 27 Golden Gate Beta (26A5388g)\
-> 📒 微信版本: 4.1.12.52(269364)\
+> 💻 设备: M1 Max macOS 27 Golden Gate Beta (26A5406e)\
+> 📒 微信版本: 4.1.13.6(269574)\
 > ❌ 不支持 Intel 版本\
 > ❌ 不支持 MAS 版本
 > 
-> MD5: 510a3ffdce42a91b3cb9f152be926ed7\
-> SHA1: 5eeb050f4c9f80c2c5bbaa300869542c8388899e\
-> SHA256: 433cd29edfbf643191161109b838aa885cf48af5db0478f6badec570526ecce1
+> MD5: af66ca2116ea73a49214afa0358da20b\
+> SHA1: 5f83ee4dd1b19f07f3a3aeb98b8be90e562a925d\
+> SHA256: f15b396f906fd84d52f6acc84fd86539aa34f9ddc08066095dd516502314952a
 > 
-> 安装包 pkg SHA 256: 8e5403a47e1b9c9981b7605d0559c42d90c6ea5609e2efaf642ba5d85ee9c802
+> 安装包 pkg SHA 256: 421b9894f76c751839c64ea078986ed05c87fa6914f3fc43b31c36e40ba136e9
 
 # 支持版本(点击版本或立即下载即可下载原版)
 ## 最新支持版本
 |   版本    | 版本号 | 支持 | 需要插件版本 | 下载原版                                                                                           |
 |:---------:|:------:|:----:|:------------:|----------------------------------------------------------------------------------------------------|
-| 4.1.12.52 | 269364 |  ✅  |    2.7.0     | [立即下载](https://dldir1v6.qq.com/weixin/Universal/Mac/xWeChatMac_universal_4.1.12.52_269364.dmg) |
+| 4.1.13.6  | 269574 |  ✅  |    2.8.0     | [立即下载](https://dldir1v6.qq.com/weixin/Universal/Mac/xWeChatMac_universal_4.1.13.6_269574.dmg)  |
 
 ## 历史支持版本
 <details>
@@ -102,21 +102,32 @@ macOS 客户端插件
 | 4.1.12.29 | 269341 |  ✅  |     2.6.4     | [立即下载](https://dldir1v6.qq.com/weixin/Universal/Mac/xWeChatMac_universal_4.1.12.29_269341.dmg) |
 | 4.1.12.50 | 269362 |  ✅  |     2.7.0     | [立即下载](https://dldir1v6.qq.com/weixin/Universal/Mac/xWeChatMac_universal_4.1.12.50_269362.dmg) |
 | 4.1.12.51 | 269363 |  ✅  |     2.7.0     | [立即下载](https://dldir1v6.qq.com/weixin/Universal/Mac/xWeChatMac_universal_4.1.12.51_269363.dmg) |
+| 4.1.12.52 | 269364 |  ✅  |     2.7.0     | [立即下载](https://dldir1v6.qq.com/weixin/Universal/Mac/xWeChatMac_universal_4.1.12.52_269364.dmg) |
+| 4.1.12.53 | 269365 |  ✅  |       -       | [立即下载](https://dldir1v6.qq.com/weixin/Universal/Mac/xWeChatMac_universal_4.1.12.53_269365.dmg) |
+| 4.1.13.5  | 269573 |  ✅  |       -       | [立即下载](https://dldir1v6.qq.com/weixin/Universal/Mac/xWeChatMac_universal_4.1.13.5_269573.dmg)  |
 
 </details>
 
 # 目录
 
+<!-- TOC -->
+* [X1a0He Plugin 2 for macOS](#x1a0he-plugin-2-for-macos)
+* [支持版本(点击版本或立即下载即可下载原版)](#支持版本点击版本或立即下载即可下载原版)
+  * [最新支持版本](#最新支持版本)
+  * [历史支持版本](#历史支持版本)
+* [目录](#目录)
 * [如何安装](#如何安装)
-    * [必要步骤](#必要步骤)
-        * [已安装 Git 的用户](#已安装-git-的用户)
-        * [未安装 Git 的用户](#未安装-git-的用户)
-* [插件菜单预览](#插件菜单预览)
-* [✨功能](#功能)
+  * [步骤](#步骤)
+    * [使用 pkg 一键安装](#使用-pkg-一键安装)
 * [📝更新日志](#更新日志)
+    * [2.8.0 (2026.08.18)](#280-20260818)
 * [使用须知](#使用须知)
 * [FAQ](#faq)
+  * [pkg 出现安装失败？](#pkg-出现安装失败)
+* [插件菜单预览](#插件菜单预览)
+* [✨功能](#功能)
 * [👨🏻‍💻作者](#作者)
+<!-- TOC -->
 
 # 如何安装
 
@@ -129,11 +140,14 @@ macOS 客户端插件
 
 - **更多更新日志，请查看 [更新日志](change-log.md)**
 
-### 2.7.0 (2026.08.07)
-- feat: 支持 4.1.12.50(269362)
-- feat: 支持 4.1.12.51(269363)
-- feat: 支持 4.1.12.52(269364)
-- fix: 修复了因退群监控导致弹出提示 数据库已损坏 影响 联系人 功能的问题
+### 2.8.0 (2026.08.18)
+1. feat: 支持 4.1.13.6(269574)
+2. feat: 新的多开实现方式 \
+在这个版本中，我对插件的多开功能进行完全重写，以新的方式实现，更加贴合官方行为，现在，你可以在新的多开微信窗口中登录新的微信账号，得益于新的多开功能，老版本中先登录 A 账号后登录 B 账号后，上一次登录的账号会被 B 账号覆盖的问题也得到了解决，当前多开登录后的账号不会再影响先登录的账号，同时，不会再出现掉线的问题
+3. feat: 新增按账号隔离插件配置 \
+在本次更新后，隔离不同账号的插件配置尤为重要，对于重度使用多开用户，该功能可以更好的独立每个账号的插件配置，开启后，下面的配置会被隔离
+   - 所有撤回类设置
+   - 群聊监控设置
 
 <a href="https://www.star-history.com/?repos=X1a0He%2FX1a0HeWeChatPlugin&type=date&legend=top-left">
  <picture>
