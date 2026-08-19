@@ -1,30 +1,30 @@
 # X1a0He Plugin 2 for macOS
 
 ![platform](https://img.shields.io/badge/platform-macos-blue.svg)
-[![release](https://img.shields.io/badge/release-v2.8.0-brightgreen.svg)](https://github.com/X1a0He/X1a0HeWeChatPlugin/releases)
-![support](https://img.shields.io/badge/support-%204.1.13.6-blue.svg)
+[![release](https://img.shields.io/badge/release-v2.8.1-brightgreen.svg)](https://github.com/X1a0He/X1a0HeWeChatPlugin/releases)
+![support](https://img.shields.io/badge/support-%204.1.13.7-blue.svg)
 
 macOS 客户端插件
 ![](images/WeChatMainMockUp.png)
 
 
 > ✅ 已在以下环境中测试通过\
-> 💻 设备: M1 Max macOS 27 Golden Gate Beta (26A5406e)\
-> 📒 微信版本: 4.1.13.6(269574)\
+> 💻 设备: M1 Max macOS 27 Golden Gate Beta (26A5416b)\
+> 📒 微信版本: 4.1.13.7(269575)\
 > ❌ 不支持 Intel 版本\
 > ❌ 不支持 MAS 版本
 > 
-> MD5: af66ca2116ea73a49214afa0358da20b\
-> SHA1: 5f83ee4dd1b19f07f3a3aeb98b8be90e562a925d\
-> SHA256: f15b396f906fd84d52f6acc84fd86539aa34f9ddc08066095dd516502314952a
+> MD5: 0a519fee5a6ce70f7bbf911edfa2d566\
+> SHA1: 5832b455c604ef5b913d1abc0732c4b7ebc55db7\
+> SHA256: 60468afaa9985b325cd3a87fb994dacedd4478fed7c499b42b05ea115872ad68
 > 
-> 安装包 pkg SHA 256: 421b9894f76c751839c64ea078986ed05c87fa6914f3fc43b31c36e40ba136e9
+> 安装包 pkg SHA 256: e7e89acbc6865a16ca10075f4b3beb36a54a610ac10136c1166f4f6c06f8efb3
 
 # 支持版本(点击版本或立即下载即可下载原版)
 ## 最新支持版本
-|   版本    | 版本号 | 支持 | 需要插件版本 | 下载原版                                                                                           |
-|:---------:|:------:|:----:|:------------:|----------------------------------------------------------------------------------------------------|
-| 4.1.13.6  | 269574 |  ✅  |    2.8.0     | [立即下载](https://dldir1v6.qq.com/weixin/Universal/Mac/xWeChatMac_universal_4.1.13.6_269574.dmg)  |
+|   版本   | 版本号 | 支持 | 需要插件版本 | 下载原版                                                                                          |
+|:--------:|:------:|:----:|:------------:|---------------------------------------------------------------------------------------------------|
+| 4.1.13.7 | 269575 |  ✅  |    2.8.1     | [立即下载](https://dldir1v6.qq.com/weixin/Universal/Mac/xWeChatMac_universal_4.1.13.7_269575.dmg) |
 
 ## 历史支持版本
 <details>
@@ -105,6 +105,7 @@ macOS 客户端插件
 | 4.1.12.52 | 269364 |  ✅  |     2.7.0     | [立即下载](https://dldir1v6.qq.com/weixin/Universal/Mac/xWeChatMac_universal_4.1.12.52_269364.dmg) |
 | 4.1.12.53 | 269365 |  ✅  |       -       | [立即下载](https://dldir1v6.qq.com/weixin/Universal/Mac/xWeChatMac_universal_4.1.12.53_269365.dmg) |
 | 4.1.13.5  | 269573 |  ✅  |       -       | [立即下载](https://dldir1v6.qq.com/weixin/Universal/Mac/xWeChatMac_universal_4.1.13.5_269573.dmg)  |
+| 4.1.13.6  | 269574 |  ✅  |     2.8.0     | [立即下载](https://dldir1v6.qq.com/weixin/Universal/Mac/xWeChatMac_universal_4.1.13.6_269574.dmg)  |
 
 </details>
 
@@ -140,14 +141,8 @@ macOS 客户端插件
 
 - **更多更新日志，请查看 [更新日志](change-log.md)**
 
-### 2.8.0 (2026.08.18)
-1. feat: 支持 4.1.13.6(269574)
-2. feat: 新的多开实现方式 \
-在这个版本中，我对插件的多开功能进行完全重写，以新的方式实现，更加贴合官方行为，现在，你可以在新的多开微信窗口中登录新的微信账号，得益于新的多开功能，老版本中先登录 A 账号后登录 B 账号后，上一次登录的账号会被 B 账号覆盖的问题也得到了解决，当前多开登录后的账号不会再影响先登录的账号，同时，不会再出现掉线的问题
-3. feat: 新增按账号隔离插件配置 \
-在本次更新后，隔离不同账号的插件配置尤为重要，对于重度使用多开用户，该功能可以更好的独立每个账号的插件配置，开启后，下面的配置会被隔离
-   - 所有撤回类设置
-   - 群聊监控设置
+### 2.8.1 (2026.08.19)
+1. feat: 支持 4.1.13.7(269575)
 
 <a href="https://www.star-history.com/?repos=X1a0He%2FX1a0HeWeChatPlugin&type=date&legend=top-left">
  <picture>
